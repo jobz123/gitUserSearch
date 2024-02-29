@@ -1,0 +1,26 @@
+:root{
+
+  --clr-blue: 212, 100%, 50%;
+  --clr-gray: 217, 20%, 51%;
+  --clr-blue-gray: 217, 35%, 45%;
+  --clr-light-black: 217, 21%, 21%;
+  --clr-dark-white: 227, 100%, 98%;
+  --clr-white: 0, 0%, 100%;
+  --clr-black: 220, 40%, 13%;
+  --clr-dark-blue: 222, 41%, 20%;
+
+  --ff-primary: 'Space Mono', monospace;
+
+}
+
+
+*, ::after, ::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;;
+}
+
+input{
+  background-color: inherit;
+  
+}

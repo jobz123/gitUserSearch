@@ -1,0 +1,53 @@
+body{
+    font-size: 0.9375rem;
+    font-family: var(--ff-primary);
+}
+
+.App{
+    min-height: 100vh;
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+
+.dark-mode{
+    background-color: hsl(var(--clr-black));
+}
+
+.light-mode{
+    background-color: hsl(var(--clr-white));
+}
+
+
+.light-mode .header{
+    color: #222731;
+}
+
+.dark-mode .header{
+    color: #FFFFFF;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 750px){
+    body{
+       padding: 25px;
+    }
+    .App{
+    
+        max-width: 450px;
+       
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    a{
+        padding-right: 10px;
+    }
+}

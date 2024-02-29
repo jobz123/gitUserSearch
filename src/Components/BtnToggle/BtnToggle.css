@@ -1,0 +1,30 @@
+.button-theme{
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.light-theme{
+    color: #4B6A9B;
+}
+
+.light-theme img{
+    fill: #4B6A9B;
+}
+
+.dark-theme{
+    color:#FFFFFF ;
+}
+
+.dark-theme img{
+    fill: #FFFFFF;
+}
+
+button img{
+    margin-left: 10px;
+}
